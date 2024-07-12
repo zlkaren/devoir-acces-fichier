@@ -13,10 +13,11 @@
 
 void tail(FILE *file, int n);
 
+ 
 int main(int argc, char *argv[]) 
 
 {
-    
+
     if (argc < 2)
      
      {
@@ -49,6 +50,7 @@ int main(int argc, char *argv[])
     
     return (0);
 }
+
 
 void tail(FILE *file, int n)
 
